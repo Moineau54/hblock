@@ -91,6 +91,16 @@ HBLOCK_SOURCES_BUILTIN="$(cat <<-'EOF'
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-badware/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/ublock-privacy/list.txt
 	https://raw.githubusercontent.com/hectorm/hmirror/master/data/urlhaus/list.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/advertisement.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/malware.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/phishing.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/spam.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/tracking.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/fingerprinting.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/suspicious.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/telemetry.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/csam.txt
+	https://raw.githubusercontent.com/Moineau54/blocklist/refs/heads/main/zoophilia.txt
 EOF
 )"
 
