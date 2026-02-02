@@ -36,7 +36,7 @@ The latest available version can also be installed manually by running the follo
 
 ```sh
 curl -o /tmp/hblock 'https://raw.githubusercontent.com/Moineau54/hblock/refs/heads/master/hblock' \
-  && echo 'dce8b77637b846544e1f95aa60257e6529b1fc730b838b4047f3416324e7aa27  /tmp/hblock' | shasum -c \
+  && echo '4146b24a47a815ffe77366ace226d6415c91dab49bbb2c4d140723bcc4e169ac  /tmp/hblock' | shasum -c \
   && sudo mv /tmp/hblock /usr/local/bin/hblock \
   && sudo chown 0:0 /usr/local/bin/hblock \
   && sudo chmod 755 /usr/local/bin/hblock
